@@ -39,6 +39,8 @@ html {
       float: right;
       display: block;
       position: fixed;
+      margin-left: 0px;
+      margin-top: 46px;
     }
   }
   @media screen and (max-width: 700px) {
