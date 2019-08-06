@@ -138,7 +138,7 @@ html {
     /* ....About */
     /* Skill section */
     .Skills{
-    
+     
         text-decoration: none;
         justify-content: center;
         align-items: center;
@@ -225,11 +225,16 @@ ul{
   text-decoration: none;
 }
 h4{
-  
+  margin-right: 80px;
   color: rgb(187, 165, 165);
   font-size: 30px;
   font-weight: bold;
 }
+
+#c{
+  margin-top: 70px;
+}
+
 p{
   color: rgb(122, 108, 108);
 }
@@ -270,3 +275,4 @@ a{
   text-decoration: none;
   color: black
 }
+
