@@ -86,7 +86,7 @@ html {
         color: black;>
     }
     .header{
-        background-image: url(picture1.jpg);
+        background-image: url(pp.jpg);
         height:100%;
         width: 100%;
         background-position: center;
@@ -109,15 +109,15 @@ html {
         left: 0;
         width: 100%;
         box-sizing: border-box;
-        font-family: 'Lobster', cursive;
+        /* font-family: 'Lobster', cursive; */
         font-size: 30px;
     }
     /* ...Home */
     /* About... */
     #profile-pic img{
       margin-top: 120px;
-        height: 100px;
-        width: 255px;
+        height: 500px;
+        width: 500px;
         padding: -20px;
     }
     #About{
@@ -144,7 +144,7 @@ html {
     /* ....About */
     /* Skill section */
     .Skills{
-     
+          
         text-decoration: none;
         justify-content: center;
         align-items: center;
@@ -256,6 +256,7 @@ p{
 }
 
 .form{
+  background-color: rgb(54, 51, 51);
   position: relative;
   z-index: 1;
   margin: 0 auto 100px;
@@ -299,3 +300,62 @@ a{
   transition: all 0.4s ease 0s;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nunito|Playfair+Display&display=swap');
+
+.cards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  box-sizing: border-box;
+  height: auto;
+  width: calc(100% / 6);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 50px;
+  border-radius: 10px;
+}
+.card .head{
+  height:auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: coral;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  clip-path: circle(60% at 0% 0%);
+  transition: all ease-in-out 0.5s;
+}
+.card .head h5{
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+.card:hover .head{
+  clip-path: circle(100% at 50% 50%);
+  background: rgb(172, 158, 158);
+}
+.card:hover .head h5{
+  opacity: 1;
+}
+.card .head h3, .card .head h5{
+  margin: 0!important;
+  padding: 0;
+} 
+.card .description{
+  padding: 20px;
+  font-family: 'Nunito', sans-serif;
+
+}
+@media(max-width: 768px){
+  .cards-wrapper{
+    flex-direction: column;
+  }
+  .card{
+    width: 100%;
+  }
+}

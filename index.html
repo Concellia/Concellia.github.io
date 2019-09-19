@@ -30,10 +30,22 @@
       </div>
       <div class="Home" id="Home">
             <h1>Tiyiselani Concellia Rhangani</h1>
-            <h3>Web Developer(Coder)</h3>
+            <h3 id="te"></h3>
         </div>
     </header>
-   
+    <script>
+            var i = 0;
+            var txt = "<p>Hello World 😊 I'm A Web Developer</p>";
+            var speed = 300;
+            
+            (function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("te").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            })();
+            </script>
   
    
        
