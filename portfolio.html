@@ -11,10 +11,6 @@
       box-sizing: border-box;
     }
 
-    /* body {
-      font-family: Verdana, sans-serif;
-    } */
-
     .mySlides {
       display: none;
     }
@@ -29,23 +25,24 @@
       position: relative;
       margin: auto;
       margin-top: 100px;
-      
+
     }
+
     #texter {
-  background-color: white;
-  color: black;
-  font-size: 5vw; 
-  font-weight: bold;
-  margin: 0 auto;
-  padding: 5px;
-  width: 50%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  mix-blend-mode: screen;
-}
+      background-color: black;
+      color: rgb(243, 233, 233);
+      font-size: 5vw;
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 5px;
+      width: 50%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      mix-blend-mode: screen;
+    }
 
     /* Caption text */
     .text {
@@ -58,6 +55,7 @@
       text-align: center;
       top: 0px;
     }
+
     /* The dots/bullets/indicators */
     .dot {
       height: 15px;
@@ -70,7 +68,7 @@
     }
 
     .active {
-      background-color:rgb(44, 38, 38) ;
+      background-color: rgb(44, 38, 38);
     }
 
     /* Fading animation */
@@ -100,8 +98,6 @@
         opacity: 1
       }
     }
-
-    /* On smaller screens, decrease text size */
     @media only screen and (max-width: 300px) {
       .text {
         font-size: 11px
@@ -134,98 +130,74 @@
   </header>
   <section class="Portfolio" id="Portfolio">
     <div class="Portfolio">
-      
+
       <br><br>
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <a href="https://codepen.io/Tiyiselani/full/XGKWwM" class="button"><img src="tribute.jpg" style="width:1000px ;height: 500px;">
-            <div class="text" id="texter">Tributary Page</div></a>
-          </div>
-
-          <div class="mySlides fade">
-            <a href="https://codepen.io/Tiyiselani/full/BXdVxo" class="button"><img src="survey.jpg" style="width:1000px ;height: 500px;">
-            <div class="text" id="texter">Online Survey</div></a>
-          </div>
-
-          <div class="mySlides fade">
-            <a href="https://codepen.io/Tiyiselani/full/eqExzv" class="button"><img src="jeans.jpg" style="width:1000px ;height: 500px;">
-            <div class="text" id="texter">Landing Page</div></a>
-          </div>
-          <div class="mySlides fade">
-            <a href="https://codepen.io/Tiyiselani/full/PMOaPB" class="button"><img src="python.jpg" style="width:1000px ;height: 500px;">
-            <div class="text" id="texter">Technical Document</div></a>
-          </div>
-          <div class="mySlides fade">
-            <a href="https://codepen.io/Tiyiselani/full/GVyzJO" class="button"><img src="main1.jpeg" style="width:1000px ;height: 500px;">
-            <div class="text" id="texter">Memory Game</div></a>
-          </div>
-
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <a href="https://codepen.io/Tiyiselani/full/XGKWwM" class="button"><img src="tribute.jpg"
+              style="width:1000px ;height: 500px;">
+            <div class="text" id="texter">Tributary Page</div>
+          </a>
         </div>
-        <br>
 
-        <div style="text-align:center">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+        <div class="mySlides fade">
+          <a href="https://codepen.io/Tiyiselani/full/BXdVxo" class="button"><img src="survey.jpg"
+              style="width:1000px ;height: 500px;">
+            <div class="text" id="texter">Online Survey</div>
+          </a>
         </div>
-        <h4 id="port">Check out my work!</h4>
-        <script>
-          var slideIndex = 0;
-          showSlides();
 
-          function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) { slideIndex = 1 }
-            for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            setTimeout(showSlides, 3000); 
+        <div class="mySlides fade">
+          <a href="https://codepen.io/Tiyiselani/full/eqExzv" class="button"><img src="jeans.jpg"
+              style="width:1000px ;height: 500px;">
+            <div class="text" id="texter">Landing Page</div>
+          </a>
+        </div>
+        <div class="mySlides fade">
+          <a href="https://codepen.io/Tiyiselani/full/PMOaPB" class="button"><img src="python.jpg"
+              style="width:1000px ;height: 500px;">
+            <div class="text" id="texter">Technical Document</div>
+          </a>
+        </div>
+        <div class="mySlides fade">
+          <a href="https://codepen.io/Tiyiselani/full/GVyzJO" class="button"><img src="main1.jpeg"
+              style="width:1000px ;height: 500px;">
+            <div class="text" id="texter">Memory Game</div>
+          </a>
+        </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <h4 id="port">Check out my work!</h4>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
           }
-        </script>
-
-
-
-
-
-
-
-        <!-- <div class="More" id="More">
-              <div class="box" id="box">
-                
-                <a href="https://codepen.io/Tiyiselani/full/XGKWwM" class="button"><img src="tribute.jpg" width="250" height="150"/><br/>Tribute page</a>
-              </div>
-              <br><br>
-              <div class="box" id="box">
-                  
-                  <a href="https://codepen.io/Tiyiselani/full/BXdVxo" class="button"><img src="survey.jpg" width="250" height="150"/><br/>Online survey form</a>
-              </div>
-              <br><br>
-              <div class="box" id="box">
-                 
-                  <a href="https://codepen.io/Tiyiselani/full/eqExzv" class="button"> <img src="jeans.jpg" height="150" width="250"/><br/>Product landing page</a>
-              </div>
-              <br><br>
-              <div class="box" id="box">
-                  
-                  <a href="https://codepen.io/Tiyiselani/full/PMOaPB" class="button"><img src="python.jpg" width="250" height="150"/><br/>Technical Document</a>
-              </div>
-              <br><br>
-              <div class="box" id="box">
-                  
-                  <a href="https://codepen.io/Tiyiselani/full/GVyzJO" class="button"><img src="main1.jpeg" width="250" height="150"/><br/>Memory Game</a>
-              </div>
-              </div>
-        </div> -->
+          slideIndex++;
+          if (slideIndex > slides.length) { slideIndex = 1 }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 3000);
+        }
+      </script>
   </section>
 </body>
 <footer class="footer" id="footer">&copy Designed by Tiyiselani Rhangani</footer>

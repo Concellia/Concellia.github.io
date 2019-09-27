@@ -7,7 +7,7 @@ html {
     overflow: hidden;
     position: fixed;
     right: 0;
-    width: 100vw;
+    width: 100%;
     background-color: rgb(172, 158, 158);
     
   }
@@ -83,7 +83,7 @@ html {
     .Home{
         font-size: 15px;
         font-family: 'Source Code Pro', monospace;
-        color: black;>
+        color: black;
     }
     .header{
         background-image: url(pp.jpg);
