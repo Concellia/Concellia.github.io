@@ -39,17 +39,17 @@ html {
   .topnav .icon {
     display: none;
   }  
-  @media screen and (max-width: 700px) {
+  /* @media screen and (max-width: 700px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
       position: fixed;
-      margin-left: 0px;
+      margin-left: 0px; */
       /* margin-top: 46px; */
-    }
-  }
-  @media screen and (max-width: 700px) {
+    /* }
+  } */
+  /* @media screen and (max-width: 700px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -63,7 +63,7 @@ html {
       text-align: right;
        
     }
-  }
+  } */
   /* #logo{
     color:black;
     font-size: 12px;
