@@ -128,14 +128,14 @@ html{
       #aboutme{
           flex: 1; 
          background-color: rgba(16, 16, 29, 0.452);
-         color: white;
+         color:#769796;
          padding: 20px;
          }
          #Education{
              flex: 1;
              background-color: rgba(16, 16, 29, 0.452);
              padding: 20px;
-             color: white;
+             color: #769796
          }
       /* ....About */
 
