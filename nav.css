@@ -70,7 +70,7 @@ html{
         color: #0B0C10;
     }
     .header{
-        background-image: url(test.jpg);
+        background-image: url(index.jpg);
         height:100%;
         width: 100%;
         background-position: center;
@@ -115,6 +115,15 @@ html{
               width: 250px;
               padding: -20px;
           }
+          .header{
+            background-image: url(test.jpg);
+            height:100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
       }
       #About{
        
