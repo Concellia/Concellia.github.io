@@ -67,7 +67,16 @@
   position: absolute;
   top: 0;
 }
-
+.more{
+  color:  #66fcf1;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  align-items: center;
+  margin-top: 300px;
+  margin-left: 50%;
+   
+}
 /* Container for image text */
 .caption-container {
   text-align: center;
@@ -101,11 +110,35 @@
   width: 100%;
   height: 600px;
 }
+@media screen and (max-width: 1000px) {
+  .more{
+  color:  #66fcf1;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  align-items: center;
+  margin-top: 300px;
+  margin-left: 40%;
+  font-size: 10PX;
+   
+}
+}
  
 @media screen and (max-width: 600px) {
   .image{
   width: 100%;
   height: 300px;
+}
+.more{
+  color:  #66fcf1;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 40%;
+  font-size: 10PX;
+   
 }
 }
  </style>
@@ -142,28 +175,33 @@
         <!-- Full-width images with number text -->
         <div class="mySlides">
             <a href="https://codepen.io/Tiyiselani/full/XGKWwM" class="button" target="_blank"> 
-          <div class="numbertext">1 / 4</div>
-            <img  class="image"src="tribute.jpg"></a>
+              <button class="more" id="but">Check It Out!</button></a>
+        <div class="numbertext">1 / 4</div>
+            <img  class="image"src="tribute.jpg">
         </div>
-      
         <div class="mySlides">
             <a href="https://codepen.io/Tiyiselani/full/BXdVxo" class="button" target="_blank">
-          <div class="numbertext">2 / 4</div>
-            <img class="image" src="apple.jpg"></a>
+                <button class="more" id="but">Check It Out!</button>
+         </a>
+         <div class="numbertext">2 / 4</div>
+         <img class="image" src="apple.jpg">
         </div>
       
         <div class="mySlides">
             <a href="https://codepen.io/Tiyiselani/full/eqExzv" class="button" target="_blank">
-          <div class="numbertext">3 / 4</div>
-            <img class="image" src="background.jpg">
+              <button class="more" id="but">Check It Out!</button>
             </a>
+            <div class="numbertext">3 / 4</div>
+            <img class="image" src="background.jpg">
         </div>
       
         <div class="mySlides">
             <a href="https://codepen.io/Tiyiselani/full/PMOaPB" class="button" target="_blank">
-          <div class="numbertext">4 / 4</div>
-            <img class="image" src="DOC.jpg">
+              <button class="more" id="but">Check It Out!</button>
+         
             </a>
+            <div class="numbertext">4 / 4</div>
+            <img class="image" src="DOC.jpg">
         </div>
   
       

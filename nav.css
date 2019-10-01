@@ -292,7 +292,24 @@ a {
   -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
   transition: all 0.4s ease 0s;
 }
-
+#but{
+  color: #1f2833 !important;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  background: #66fcf1;
+  padding: 20px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  border-radius: 6px;
+}
+#but:hover{
+  ext-shadow: 0px 0px 6px black;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
 h2 {
   font-size: 50px;
 }
