@@ -104,14 +104,16 @@ html {
 
 /* About... */
 #profile-pic img {
-  margin-top: 120px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   height: 500px;
   width: 500px;
   padding: -20px;
 }
 @media screen and (max-width: 600px) {
   #profile-pic img {
-    margin-top: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 250px;
     width: 250px;
     padding: -20px;
